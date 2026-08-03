@@ -1,11 +1,11 @@
 [project]
 name = "iosxe_guestshell_logging"
-version = "1.0"
+version = "1.0.1"
 description = "Example code to enable logging from Python in the Cisco IOS XE Guestshell"
 authors = [
     {name = "Palmer Sample",email = "psample@cisco.com"}
 ]
-# readme = "README.md"
+readme = "README.md"
 requires-python = ">=3.6,<4.0"
 dependencies = [
 ]
