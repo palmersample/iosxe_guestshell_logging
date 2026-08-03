@@ -1,0 +1,28 @@
+[project]
+name = "iosxe_guestshell_logging"
+version = "1.0"
+description = "Example code to enable logging from Python in the Cisco IOS XE Guestshell"
+authors = [
+    {name = "Palmer Sample",email = "psample@cisco.com"}
+]
+# readme = "README.md"
+requires-python = ">=3.6,<4.0"
+dependencies = [
+]
+
+classifiers = [
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/palmersample/iosxe_guestshell_logging"
+"Bug Tracker" = "https://github.com/palmersample/iosxe_guestshell_logging/issues"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
